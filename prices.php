@@ -27,10 +27,10 @@ get_header(); ?>
                                                 $prices[] = $s;
 
                                             }
-                                            echo '123';
+                                            //echo '123';
                                             //var_dump($prices);
-                                            echo '<br>';
-                                            echo json_encode($prices);
+                                            //echo '<br>';
+                                            //echo json_encode($prices);
                                             echo '<script>';
                                             echo 'window.prices = ' . json_encode($prices).';';
 
