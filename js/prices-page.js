@@ -30,7 +30,7 @@ $(".zone-item input:checkbox").click(function () {
                 $(this).html(peopleCount);
             });
         });
-        //createNewRow
+//        createNewRow
 //        $(".click").click(function () {
 //            var additionalInputs = $  ("#" + zoneItemId + " .js-form-controls").html();
 //            $("#" + zoneItemId).append("<div class='js-form-controls'>"+ additionalInputs +"</div>");
@@ -42,11 +42,18 @@ $(".zone-item input:checkbox").click(function () {
             var finalAge = $("#" + zoneItemId + " .age-selector-value").html();
             var finalTime = $("#" + zoneItemId + " .time-selector-value").html();
             var finalPeopleCount = $("#" + zoneItemId + " .people-selector-value").html();
-            //alert(window.prices[zoneItemId][finalTime].price);
-            $("#" + zoneItemId + " .price-for-zone").html(window.prices[zoneItemId][finalTime][finalAge]);
+            var zonePrice= $("#" + zoneItemId + " .price-for-zone");
+
+           //alert(window.prices[zoneItemId][finalTime].price);
+            zonePrice.html(window.prices[zoneItemId][finalTime][finalAge]);
+//            var finalZonePrice= $(".multiplied-price-for-zone");
+//            finalZonePrice.html($("#" + zoneItemId + " .price-for-zone").html(window.prices[zoneItemId][finalTime][finalAge]))*finalPeopleCount;
             var sum=0;
-            $(".price-for-zone").each(function(){
-                sum += Number($(this).html()*finalPeopleCount);
+            var multipliedPrice = $("#" + zoneItemId + " .price-for-zone").html() * finalPeopleCount;
+            $("#" + zoneItemId + " .multiplied-price-for-zone").html(multipliedPrice);
+
+            $(".multiplied-price-for-zone").each(function(){
+                sum += Number($(this).html());
             });
             $(".js-final-price").html(sum);
         });

@@ -77,6 +77,7 @@ get_header(); ?>
                                                     <span class="time-selector-value display-none"></span>
                                                     <span class="people-selector-value display-none">1</span>
                                                     <span class="price-for-zone display-none"></span>
+                                                    <span class="multiplied-price-for-zone display-none"></span>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                                     <label>Количество человек</label>
