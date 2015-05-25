@@ -1,0 +1,33 @@
+.contacts-page table {
+  width: 100%;
+  margin: 20px 0;
+}
+.contacts-page table,
+.contacts-page th,
+.contacts-page td {
+  border: 1px solid #f1f1f1;
+}
+.contacts-page th {
+  height: 50px;
+}
+.contacts-page td {
+  padding: 10px;
+  vertical-align: central;
+}
+.contacts-page textarea {
+  min-height: 150px;
+}
+.contacts-page h2 i {
+  background: #ccc;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.contacts-page h2:hover i {
+  background: #dc1e3d;
+}
+/*# sourceMappingURL=contacts.css.map */
