@@ -1,0 +1,123 @@
+.icons {
+  padding-left: 0;
+}
+.icons .subnavi-block:before,
+.icons .subnavi-block:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icons .subnavi-block:before {
+  top: -82px;
+  background: url(../img/before-list.svg);
+}
+.icons .subnavi-block:after {
+  bottom: -82px;
+  background: url(../img/after-list.svg);
+}
+.icons .subnavi-block {
+  background: #298ecc;
+  margin-right: -16px;
+  position: relative;
+}
+@font-face {
+  font-family: 'zone-icons';
+  src: url('../fonts/zone-icons/zone-icons.eot?-ch9u9q');
+  src: url('../fonts/zone-icons/zone-icons.eot?#iefix-ch9u9q') format('embedded-opentype'), url('../fonts/zone-icons/zone-icons.woff?-ch9u9q') format('woff'), url('../fonts/zone-icons/zone-icons.ttf?-ch9u9q') format('truetype'), url('../fonts/zone-icons/zone-icons.svg?-ch9u9q#zone-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icons .subnavi-block [class^="zi-"],
+.icons .subnavi-block [class*=" zi-"] {
+  font-family: 'zone-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icons .subnavi-block .zi-aqua1:before {
+  content: "\e600";
+}
+.icons .subnavi-block .zi-aqua2:before {
+  content: "\e601";
+}
+.icons .subnavi-block .zi-aqua3:before {
+  content: "\e602";
+}
+.icons .subnavi-block .zi-bar1:before {
+  content: "\e603";
+}
+.icons .subnavi-block .zi-bar2:before {
+  content: "\e604";
+}
+.icons .subnavi-block .zi-bar3:before {
+  content: "\e605";
+}
+.icons .subnavi-block .zi-bar4:before {
+  content: "\e606";
+}
+.icons .subnavi-block .zi-fun1:before {
+  content: "\e607";
+}
+.icons .subnavi-block .zi-fun2:before {
+  content: "\e608";
+}
+.icons .subnavi-block .zi-fun3:before {
+  content: "\e609";
+}
+.icons .subnavi-block .zi-fun4:before {
+  content: "\e60a";
+}
+.icons .subnavi-block .zi-sport1:before {
+  content: "\e60b";
+}
+.icons .subnavi-block .zi-sport2:before {
+  content: "\e60c";
+}
+.icons .subnavi-block .zi-sport3:before {
+  content: "\e60d";
+}
+.icons .subnavi-block .zi-sport4:before {
+  content: "\e60e";
+}
+.icons .subnavi-block .zi-sport5:before {
+  content: "\e60f";
+}
+.icons .subnavi-block .zi-tk1:before {
+  content: "\e610";
+}
+.icons .subnavi-block .zi-tk2:before {
+  content: "\e611";
+}
+.icons .subnavi-block .zi-tk3:before {
+  content: "\e612";
+}
+.icons .subnavi-block .tab-pane {
+  border: solid 1px #ddd;
+  border-top: none;
+  padding: 15px;
+}
+.icons .subnavi-block i {
+  display: block;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.icons .subnavi-block i span {
+  font-size: 42px;
+  color: #fff;
+}
+.icons .subnavi-block i:hover {
+  background: #298ecc;
+}
+/*# sourceMappingURL=subnavi-block.css.map */

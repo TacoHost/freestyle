@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  margin: 20px 0;
+}
+table,
+th,
+td {
+  border: 1px solid #f1f1f1;
+}
+th {
+  height: 50px;
+}
+td {
+  padding: 10px;
+  vertical-align: bottom;
+}
+.final-price {
+  background: #298ecc;
+  color: #fff;
+  width: 200px;
+  float: right;
+  font-weight: bold;
+}
+/*# sourceMappingURL=prices.css.map */

@@ -1,0 +1,92 @@
+/*! override for surf-project */
+html {
+    min-height: 100%;
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    
+}
+.container {
+    width: 100%;
+
+}
+
+.hcontainer,
+.hrow {
+    height: 100%;
+    min-height: 100%;
+}
+
+input.form-control, textarea.form-control {
+    border-radius: 0;
+    margin-bottom: 20px;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    max-width: 100%;
+}
+
+input:not([type="checkbox"]) {
+    height: 40px;
+    
+}
+.hidden-container {
+    display: none;
+}
+.hidden-container-2 {
+    display: none;
+}
+.hidden-container-3 {
+    display: none;
+}
+pre {
+    display: none;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.nav-tabs {
+    border: none;
+    position: relative;
+    display: inline-block;
+}
+.nav-tabs:before {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    content: " ";
+    float: none;
+    top: 50%;
+    clear: both;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+}
+.nav-tabs > li {
+    margin: 5px 5px;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+}
+.nav-tabs > li > a {
+    border: none;
+    margin: 5px 5px;
+    border-radius: 15px;
+    font-size: 13px;
+    padding: 5px 15px;
+    background-color: #f6f6f6;
+    color: #888888;
+}
+.nav-tabs > li > a:hover {
+  
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    background-color: #298ecc;
+    border: none;
+}
