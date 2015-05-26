@@ -168,8 +168,18 @@
                 foreach ($posts as $post) // цикл печатанья постов
                 {
 
+<<<<<<< HEAD
                     ?>
 
+=======
+
+
+
+                    ?>
+
+
+
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                     <!--   One Block -->
                     
 
@@ -178,12 +188,18 @@
                     if($img=get_field(news_image))
                     {
                         ?>
+<<<<<<< HEAD
 						<div class="image-container">
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                         <a href="<? the_permalink(); ?>">
                             <img src="<? echo $img[0][img][sizes][medium]; ?>"
                                  class="thumb img-responsive" alt=""/>
                         </a>
+<<<<<<< HEAD
 						</div>
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                         <?
                     } ?>
 

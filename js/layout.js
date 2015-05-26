@@ -53,11 +53,14 @@ if (url == "/") {
 
 $(window).on('load', function () {
     var parallaxHeight = $("body").css("height");
+<<<<<<< HEAD
     var parallaxUrl = $(".js-parallax-url").html();
 
     $(".parallax-background").attr("data-image-src", parallaxUrl);
     $(".parallax-slider").attr("src", parallaxUrl);
     
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
     $(".parallax-background").css("height", parallaxHeight);
 });
 

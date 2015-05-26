@@ -2705,6 +2705,7 @@ body {
 .parallax-background .parallax-window {
   height: 100%;
 }
+<<<<<<< HEAD
 .parallax-mirror {
   -webkit-filter: url(#blur);
   filter: url(#blur);
@@ -2715,6 +2716,8 @@ body {
   transition: 1s filter linear;
   box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.9);
 }
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
 .main-wrapper {
   min-height: 100%;
 }
@@ -2951,6 +2954,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1);
   /* IE6-9 */
 }
+<<<<<<< HEAD
 .news-item {
   min-height: 350px;
 }
@@ -2963,6 +2967,8 @@ body {
   position: absolute;
   min-height: 100%;
 }
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
 .article-preview {
   min-height: 180px;
 }
@@ -3066,6 +3072,7 @@ body {
 .YMaps td {
   border: none;
 }
+<<<<<<< HEAD
 .slider-pro .sp-layer {
   cursor: default;
 }
@@ -3076,6 +3083,8 @@ body {
   top: 6px;
   margin-bottom: 20px;
 }
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
 /*Helpers*/
 .wp-pagenavi a,
 .wp-pagenavi a:link,

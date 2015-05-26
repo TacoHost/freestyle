@@ -25,6 +25,7 @@ get_header(); ?>
                             </div>
                         <iframe width='100%' height='460' src='http://round.me/api/panorama/13927/embed/' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
+<<<<<<< HEAD
                     <? if($bg=get_field(background))
                     {
                         echo '<span class="js-parallax-url">';
@@ -32,6 +33,8 @@ get_header(); ?>
                         echo '</span>';
                     }?>
 
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                 </div>
                 <?endif; ?>
             </div>

@@ -13,12 +13,16 @@ get_header(); ?>
                                         </h2>
                                         <a class="fancybox boxed-title-link" href="#calculatro_block">Подсчитать цену</a>
                                         <div class="price-calc display-none" id="calculatro_block">
+<<<<<<< HEAD
                                             <? if($bg=get_field(background))
                                             {
                                                 echo '<span class="js-parallax-url">';
                                                 echo $bg[url];
                                                 echo '</span>';
                                             }?>
+=======
+
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                                         <!-- Start Input -->
 
                                         <?
@@ -332,8 +336,11 @@ get_header(); ?>
                                         </div>
                                     </div>
                                 </div>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                             </div>
 
 

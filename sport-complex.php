@@ -80,6 +80,7 @@ get_header();?>
                                                 }
                                                 ?>
                                                     
+<<<<<<< HEAD
                                                 </div>
                                                 <? if($bg=get_field(background))
                                                 {
@@ -88,6 +89,9 @@ get_header();?>
                                                     echo '</span>';
                                                 }?>
 
+=======
+                                                </div>                                                
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                                             </div>
                                             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 icons">
                                                 <div class="subnavi-block">

@@ -9,12 +9,15 @@ get_header(); ?>
 
                                 <link href="<? bloginfo("template_directory" ); ?>/less/news.min.css" rel="stylesheet">
                                 <div class="content-inner-wrapper news-page">
+<<<<<<< HEAD
                                     <? if($bg=get_field(background))
                                     {
                                         echo '<span class="js-parallax-url">';
                                         echo $bg[url];
                                         echo '</span>';
                                     }?>
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
 
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                         <h2 class="boxed-title">
@@ -52,14 +55,20 @@ get_header(); ?>
                                              <div class="article-item">
                                                  <? if($img=get_field(news_image))
                                                  {?>
+<<<<<<< HEAD
 												 <div class="image-container">
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                                                  <a href="<? the_permalink(); ?>"
                                                     class="image-block">
                                                      <img
                                                          src="<? echo $img[0][img][sizes][medium]; ?>"
                                                          class="thumb img-responsive" alt=""/>
                                                  </a>
+<<<<<<< HEAD
 												 </div>
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                                                      <?
                                                  }?>
 
@@ -86,8 +95,11 @@ get_header(); ?>
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                                                 </div>
                                                 <? wp_pagenavi(); ?>
 

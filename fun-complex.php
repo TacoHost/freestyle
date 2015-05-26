@@ -88,6 +88,7 @@ get_header(); ?>
 
 
                     ?>
+<<<<<<< HEAD
                     <? if($bg=get_field(background))
                     {
                         echo '<span class="js-parallax-url">';
@@ -95,6 +96,8 @@ get_header(); ?>
                         echo '</span>';
                     }?>
 
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
 
 
 

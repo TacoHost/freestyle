@@ -89,19 +89,25 @@ get_header(); ?>
 
 
                     ?>
+<<<<<<< HEAD
                     <? if($bg=get_field(background))
                     {
                         echo '<span class="js-parallax-url">';
                         echo $bg[url];
                         echo '</span>';
                     }?>
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
 
 
 
 
                 </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 icons">
                     <div class="subnavi-block">
                         <i>

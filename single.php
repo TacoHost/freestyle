@@ -15,6 +15,7 @@ if (have_posts() ): while (have_posts()) the_post();?>
             the_title(); ?>
             <span class="flag-btm"></span>
         </h2>
+<<<<<<< HEAD
 		<script type="text/javascript">(function() {
   if (window.pluso)if (typeof window.pluso.start == "function") return;
   if (window.ifpluso==undefined) { window.ifpluso = 1;
@@ -25,6 +26,8 @@ if (have_posts() ): while (have_posts()) the_post();?>
     h.appendChild(s);
   }})();</script>
 <div class="pluso" data-background="transparent" data-options="medium,round,line,horizontal,counter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"></div>
+=======
+>>>>>>> e5652dbb324e4b744a0616921441450b7265e28c
         <div class="row">
             <? if($img=get_field(news_image, $post->post_id))
             {
